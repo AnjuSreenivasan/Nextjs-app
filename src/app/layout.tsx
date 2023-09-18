@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import ExampleComponent from '../components/childComponent';
+import DatePickerComponent from '../components/datepickerComponent';
 
 import type { AppProps } from 'next/app';
 
@@ -13,6 +14,7 @@ const Layout: React.FC = () => {
       <main>
 
         <ExampleComponent/>
+        <DatePickerComponent/>
       </main>
       <Footer />
     </div>
